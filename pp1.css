@@ -1,0 +1,385 @@
+
+
+body{
+    margin:0;
+    padding:0;
+    /* background: #07051a; */
+}
+.search-box{
+    position:absolute;
+    top:50%;
+    left:50%;
+    transform:translate(-50%,-50%);
+    background:#fff;
+    height:40px;
+    border-radius:40px;
+    padding:10px;
+     
+}
+.search-box:hover > .txt{
+    width:300px;
+    padding:0 6px;
+    transition: all 1s;
+ 
+}
+.search-box:hover > .btn{
+    background:#07051a;
+     
+}
+.btn{
+    color:#e84118;
+    float:right;
+    width:40px;
+    height:40px;
+    border-radius:50%;
+ 
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    transition:0.4s;
+    cursor:pointer;
+     
+     
+}
+.btn > i{
+    font-size:30px;
+    color:#000;
+     
+}
+ 
+.txt{
+    border:none;
+    background:none;
+    outline:none;
+    float:left;
+    padding:0;
+    color:#333;
+    font-size:16px;
+    transition:0.4s;
+    line-height:40px;
+    width:0px;
+    font-weight:bold;
+}
+form:hover .fa{
+    background: #07051a;
+    color: white;
+}
+
+
+
+
+
+
+/* header....... */
+.header{
+    background-color: #4A7983;
+}
+.sell p{
+    width: 100%;
+    height: auto;
+    text-align: center;
+    font-size: larger;
+    /* font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif; */
+    color: aliceblue;
+	font-style: oblique;
+    font-size: 40px;
+}
+.aa a {
+    width: 100px; 
+    height: auto;
+    color: #e4dddd;
+    font-size: large;
+    font-size: 17px;
+	text-decoration: none; 
+    text-align: center;
+    margin-left: 10px; 
+    /* border-radius: 15px; */
+    
+    
+    
+}
+.aa a:hover{
+    color: #fff;
+    border-radius: 5px;
+   
+}
+
+
+/* End Header....... */
+
+
+
+
+
+
+
+.menue ul li{
+    width: 250px;
+    height: 30px;
+    /* float: left; */
+    border-radius: 10px;
+    /* margin-left: -6px; */
+    display: inline-block;
+    background-color: #64932B;
+    text-align: center;
+    border: 1px solid rgb(196, 172, 172);
+}
+
+.menue ul li a{
+    font-size: 19px;
+    color: #d1bdbd;
+    text-decoration: none;
+}
+.menue ul li a:hover{
+    color: #000;
+}
+.menue ul li:hover{
+    /* color: #ddd; */
+    background: #a74a4a;
+    box-shadow: 1px 1px 2px 1px red;
+}
+
+
+
+
+
+
+/* Card/............ */
+
+.product2-items{
+    width: 100%;
+    height: auto;
+    text-align: center;
+    color: white;
+    font-size: 35px;
+    border-radius: 5px;
+    background: #966060;
+}
+
+.product-catalog {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  
+  .product-item {
+    margin: 20px;
+    width: 250px;
+    background-color: #f7f7f7;
+    border: 1px solid #ddd;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .product-item img {
+    width: 100%;
+    height: 150px;
+    object-fit: cover;
+    border-radius: 10px 10px 0 0;
+  }
+  
+  .product-item h2 {
+    font-size: 18px;
+    margin-top: 10px;
+  }
+  
+  .product-item p {
+    font-size: 14px;
+    color: #666;
+  }
+  
+  .product-item button {
+    background-color: #04AA6D;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+  }
+  
+  .product-item button:hover {
+    background-color: #03A96D;
+  }
+
+/* End Caed//........ */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Footer................................... */
+
+
+
+/*Footer Css......*/
+.border {
+    width: 100%;
+    height: auto;
+    background-color: black;
+    display:grid;
+    grid-column-gap: 0px;
+    grid-template-columns: repeat(3,1fr)00px;
+}
+
+
+
+.slider1{
+    width:100%;
+    height:auto;
+/*    background: hotpink;*/
+}
+.slider1 h3{
+    color: white;
+	text-align: center;
+}
+.slider1 p a{
+	font-size: 18px;
+	text-decoration: none;
+	color: white;
+}
+.slider1 p a:hover{
+    color: #000;
+	background-color: pink;
+	border-radius: 5px;
+}
+.slider1 p{
+	text-align: center;
+}
+
+
+
+
+
+
+
+.slider2{
+    width:100%;
+    height:auto;
+/*    background-color: red;*/
+
+}
+
+
+.slider2 h3{
+    color: white;
+	text-align: center;
+}
+.slider2 p a{
+	font-size: 18px;
+	text-decoration: none;
+	color: white;
+}
+.slider2 p a:hover{
+    color: #000;
+	background-color: pink;
+	border-radius: 5px;
+}
+.slider2 p{
+	text-align: center;
+}
+
+
+
+
+
+
+
+
+.slider3{
+    width:100%;
+    height:auto;
+/*    background-color: green;*/
+
+}
+
+.slider3 h3{
+    color: white;
+	text-align: center;
+}
+.slider3 p a{
+	font-size: 18px;
+	text-decoration: none;
+	color: white;
+}
+.slider3 p a:hover{
+	background-color: rgb(184, 50, 72);
+	border-radius: 5px;
+}
+.slider3 p{
+	text-align: center;
+}
+
+	.social{
+		color: white;
+	}
+	.images img{
+		height: 40px;
+		margin: 5px;
+		padding: 5px;
+	}
+	.images img:hover{
+		height:30px ;
+	}
+
+
+
+/* End Center....*/
+
+
+
+
+
+
+
+
+
+
+
+/* End Footer............. */
